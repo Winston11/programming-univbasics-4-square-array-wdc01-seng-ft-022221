@@ -1,6 +1,7 @@
 def square_array(array)
   array = [1, 2, 3]
- array.length do |index|
+ array.length { |index|
     index * index
+ }
   end
 end
