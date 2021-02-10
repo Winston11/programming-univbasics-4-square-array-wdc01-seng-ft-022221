@@ -1,6 +1,5 @@
 def square_array(array)
-   array.map do |element|
-    element * element
-  end
+ array = []
+square_array = []*[]
 end
 end
