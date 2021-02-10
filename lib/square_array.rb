@@ -1,6 +1,8 @@
 def square_array(numbers)
-   = [1, 2, 3]
-   array.map do |array|
-    array * array
+  new_numbers = []
+  counter = 0
+  while counter < numbers.length()
+  new_numbers.push(numbers[counter] **2)
+  counter +=1
   end
 end
