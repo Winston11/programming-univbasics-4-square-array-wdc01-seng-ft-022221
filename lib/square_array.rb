@@ -1,4 +1,4 @@
-def square_array(numbers)
+def square_array(array)
  array.map do |element|
     element * element
   end
